@@ -1,0 +1,27 @@
+Ce projet de maitrise se situe dans le contexte de la vision par ordinateur et plus spécifiquemment l reconstruction 3D.
+
+Ce projet vis à appliquer les techniques de nise en correspondance stéréoscopiques au problème de la reconstruction tri-dimentionelle d'objets semi-transparents. Le domaine d'application consiste à reconstruire un model 3D de la couronne solaire ainsi que des éjections coronales à partir d'images fournies par les missions STEREO et SOHO de la NASA. 
+
+
+L'intéret des reconstructions 3D du soleil est qu'elles facilitent la prévision météo-spatiale (space weather) et de d'aider à la meilleure conprhension surface solaire. En outre, une analyse 3D pourrait compléter les multiples analyses basées sur l'électro-magnétisme utilisées en astronomie solaire.
+
+
+------------------------
+
+Les deux satélites STEREO A et B offrent deux points de vue qui ne sont pas tous de la même utilité. Il sera nécessaire d'évaluer les séparations stéréoscopiques afin de trouver les clichés optimaux pour une reconstruction tri-dimentionelle. 
+
+Ensuite, il serait nécessaire d'analyser ls images multi-spectrales afin d'établir les meilleurs critères de correspondance stéréoscopique. Étant donné la nature semi-transparente des stuctures solaires, il sera critique d'établir un algorithme de mise en correspondance robuste capable d'intégrer le maximum d'information dans son analyse.
+
+Au niveau algorithmique, la recnstruction stéréoscopique traditionnelle suppose l'opacité du sujet visé. Ce projet devra donc développer de nouvelles aproches basées sur la prémise de semi-transparence de la cible. Au besoin, nous aurons recours à des contraintes de nature astronomique pour simplifier l'analyse.
+
+
+Étant donné que STEREO A et B sont en orbite depuis 2006, nous aurons accès à une grande librarie d'images à partir desquelles fonder notre analyse stéréoscopique. Si nécessaire, des données provenant de SOHO peuvent aussi contribuer à la reconstruction. 
+
+
+
+
+
+-Vision par ordinateur / 3D
+-Pourquoi
+	
+-comment 
