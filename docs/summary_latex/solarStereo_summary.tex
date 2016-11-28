@@ -8,8 +8,31 @@
 \usepackage{graphicx}
 \author{Samuel Huppé}
 \title{Résumé de projet: \\ Reconstruction 3D d'éjections de masse coronale par vision stéréoscopique}
+
+\setlength{\parskip}{1em}
+
 \begin{document}
 
 \maketitle
+
+Se situant dans le contexte de la vision par ordinateur et, plus spécifiquemment, la reconstruction 3D, ce projet de maîtrise vise à appliquer les techniques de mise en correspondance stéréoscopique au problème de la reconstruction tri-dimentionelle d'objets semi-transparents. 
+
+\noindent L’objectif d'application consiste à reconstruire un model 3D de la couronne solaire ainsi que des éjections coronales à partir d'images fournies par les missions STEREO et SOHO de la NASA. En établissant un modèle de correspondance enttre les images satélites STEREO A et STEREO B, il sera possible d’établir une carte de profondeur du soleil, permettant ainsi une reconstruction tri-dimentionelle. Étant donné que STEREO A et B sont en orbite depuis 2006, nous aurons accès à une grande librarie d'images à partir desquelles fonder notre analyse stéréoscopique. Si nécessaire, des données provenant de SOHO peuvent aussi contribuer à la reconstruction. 
+
+\noindent L'intéret des reconstructions 3D du soleil est qu'elles facilitent la prévision météo-spatiale (space weather) at peuvent contribuer à une meilleure conpréhension de la surface solaire. En outre, une analyse 3D pourrait venir compléter les multiples analyses basées sur l'électro-magnétisme utilisées en astronomie solaire traditionnelle.
+
+\bigskip
+
+Cependant, la reconstruction du modèle demande de résoudre quelques problèmes connexes au préalable. 
+
+\noindent Tout d’abord, les deux satélites STEREO A et B offrent deux points de vue changeant constament et n’étant pas  tous de la même utilité. Conséquemment, il sera nécessaire d'évaluer toutes les séparations stéréoscopiques potentielles afin de trouver les clichés optimaux pour une reconstruction tri-dimentionelle.  
+
+\noindent Ensuite, il faudra analyser les images multi-spectrales offertes afin d'établir les meilleurs critères de correspondance stéréoscopique. Étant donné la nature semi-transparente des stuctures solaires, il sera aussi critique d'établir un algorithme de mise en correspondance robuste capable d'intégrer le maximum d'information dans son analyse.
+
+\noindent Finallement, au niveau algorithmique, la reconstruction stéréoscopique traditionnelle suppose l'opacité du sujet visé. Ainsi, ce projet devra développer de nouvelles aproches basées sur la prémise de semi-transparence de la cible. Au besoin, nous aurons recours à des contraintes de nature astronomique pour simplifier l'analyse.
+
+\bigskip
+
+En conclusion, malgré le fait que ce projet présente, par sa nature, de nombreux défis, la possibilité de pouvoir reconstruire un modèle 3D du soleil existe. Si le projet s'avère un succès, il ouvrira de nouvelles avenues pour l'analyse empirique de la surface du soleil et sur notre compréhension de la physique solaire. 
 
 \end{document}

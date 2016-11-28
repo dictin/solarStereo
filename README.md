@@ -1,1 +1,1 @@
-# solarStereo
+# SolarStereo
